@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:4d6a8bd00bbcb8544f0cf479f4ac1f75:c91476654103daf0fbd44263b0962962:6c9ee46cf0524f7763d4dad8b6bf5bd9$ -->
+<TextureAtlas imagePath="test.png">
+    <SubTexture name="RedDudeBounce2x" x="2" y="2" width="144" height="34"/>
+</TextureAtlas>
