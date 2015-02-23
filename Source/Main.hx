@@ -8,6 +8,7 @@ import spritesheet.Spritesheet;
 import spritesheet.AnimatedSprite;
 import spritesheet.data.BehaviorData;
 import spritesheet.importers.BitmapImporter;
+import spreit.SpriteLoader;
 
 class Main extends Sprite {
     public var spritesheet:Spritesheet;
@@ -30,6 +31,7 @@ class Main extends Sprite {
         var bitmap = Assets.getBitmapData("assets/test.png");
         var spritesheet = BitmapImporter.create(
             bitmap, columns, rows, width, height);
+        SpriteLoader.load(Assets.getText("assets/test.xml"));
         spritesheet.addBehavior(
             new BehaviorData("run", [0, 1, 2, 3, 4, 5], true, 24));
         spritesheet.addBehavior(new BehaviorData("stand", [0], false));
